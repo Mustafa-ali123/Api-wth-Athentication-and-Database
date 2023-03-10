@@ -1,0 +1,90 @@
+.inpt{
+  width: 30pc;
+  height: 6vh;
+}
+
+.form-control {
+  width: 40vh;
+  border: 2px solid gray;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.form-control::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.side {
+  background-color: #222327;
+  color: aliceblue;
+  width: 47vh;
+
+}
+
+.btn1 {
+  width: 30vh;
+  margin-left: 5vh;
+}
+
+.login input {
+
+  width: 38vh;
+  height: 40px;
+  color: white;
+  border: 2px solid gray;
+  background-color: transparent !important;
+}
+
+.login input::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.login {
+  width: 75vh;
+  position: relative;
+  left: 0vh;
+  width: 52vh;
+  background-color: #222327;
+  color: aliceblue;
+}
+
+
+
+@media (max-width: 576px) {
+
+  .login input {
+      width: 32vh;
+  }
+
+  .login {
+      width: 43vh;
+      position: static;
+      left: 0;
+  }
+
+  .side input {
+      width: 35vh;
+  }
+
+  .side {
+      width: 41vh;
+  }
+
+  .form-control {
+      width: 40vh;
+  }
+
+  .btn1 {
+      width: 30vh;
+      margin-left: 5vh;
+
+  }
+
+  .btn1 {
+      width: 25vh;
+      margin-left: 5vh;
+  }
+
+}
